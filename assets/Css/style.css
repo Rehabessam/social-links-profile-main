@@ -1,0 +1,35 @@
+:root
+{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.bg-color{
+    background: var(--Dark-Grey);
+}
+.btn-color
+{
+    background: var(--Grey);
+    color: #fff;
+    font-weight: bold;
+}
+.btn-color:hover
+{
+    background: var(--Green);
+    font-weight: bold;
+}
+.color-strong
+{
+    color: var(--Green);
+    font-size: 13px;
+}
+.attribution { font-size: 11px; text-align: center; color: white; }
+.attribution a { color: hsl(228, 45%, 44%); }
