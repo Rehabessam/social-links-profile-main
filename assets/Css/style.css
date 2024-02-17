@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Inter:wght@100..900&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@700&family=Red+Hat+Display:wght@700&display=swap');
+
 :root
 {
     --Green: hsl(75, 94%, 57%);
@@ -10,7 +13,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color:var(--Off-Black)
+    background-color:var(--Off-Black);
+    font-family: "Inter", sans-serif;
 }
 .bg-color{
     background: var(--Dark-Grey);
@@ -29,7 +33,8 @@
 .color-strong
 {
     color: var(--Green);
-    font-size: 13px;
+    font-size: 9pt;
+    font-weight:600
 }
 .attribution { font-size: 11px; text-align: center; color: white; }
 .attribution a { color: hsl(228, 45%, 44%); }
